@@ -1,0 +1,44 @@
+.textarea{
+    position:static;
+    width: 290%;
+    
+}
+.email{
+    position:static;
+    width: 290%;
+
+}
+
+
+  .intro-2 {
+    background: url("https://mdbootstrap.com/img/Photos/Others/img%20(42).jpg")no-repeat center center;
+    background-size: cover;
+  }
+  .view {
+    height: 89.9vh !important;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background: #3f51b5 !important;
+    }
+  }
+  .rgba-gradient .full-bg-img {
+    background: linear-gradient(45deg, rgba(83, 125, 210, 0.4), rgba(178, 30, 123, 0.4) 100%);
+  }
+  .full-bg-img {
+    height: 100%;
+  }
+  .card {
+    background-color: rgba(229, 228, 255, 0.2);
+  }
+  
+  
+  @media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+      height: 1040px;
+    }
+  }

@@ -1,0 +1,43 @@
+
+  .intro-2 {
+    background: url("https://mdbootstrap.com/img/Photos/Others/img%20(42).jpg")no-repeat center center;
+    background-size: cover;
+  }
+  .view {
+    height: 89.99vh !important;
+  }
+
+  @media (max-width: 740px) {
+    // .full-height,
+    // .full-height body,
+    // .full-height header,
+    .full-height header .view {
+      height: 1040px;
+    }
+  }
+  .box {
+    margin: 50px auto;
+    background: #5FCF80;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .box:hover {
+    -webkit-transform: rotate(360deg);
+    background: #9351A6;
+    border-radius: 50%;
+  }
+  
+  .rotate {
+    -webkit-transition: all 0.5s ease-in-out;
+      -moz-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out;
+  }
+  
+  .rotate:hover {
+    -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+  }

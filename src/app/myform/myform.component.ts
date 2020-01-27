@@ -26,8 +26,6 @@ export class MyformComponent implements OnInit {
       acceptTerms: [false, Validators.requiredTrue],
       
   })
-  
-      //{validator: MustMatch('password', 'confirmPassword')});
   }
   get f() { return this.registerForm.controls; }
   
